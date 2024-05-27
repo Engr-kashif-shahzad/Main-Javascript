@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="./sea.jpg " width="250px" height="250px" onMouseOver="src='./office.jpg'">
+    <img src="./office.jpg" width="250px" height="250px" id="before" onmouseover="swapPic();">
+   
+    <script>
+    function swapPic(){
+        document.getElementById("before").src="./sea.jpg";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="shortp">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, itaque? <a href="#"
+            onclick="doubleit()">Click Here</a>
+    </p>
+    <p id="longp" style="display: none;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil exercitationem nobis impedit recusandae minima
+        repudiandae sunt non quod possimus reprehenderit dolorum omnis, incidunt velit, dolore perferendis veniam
+        veritatis totam. Impedit tempore reiciendis exercitationem amet odit deleniti suscipit, voluptatem officia
+        accusamus sint inventore, libero aperiam, eum et officiis voluptatum laborum! Cum.
+    </p>
+
+    <script>
+
+        function doubleit() {
+            document.getElementById("shortp").style = "display: none";
+            document.getElementById("longp").style = "display: block";
+        }
+
+    </script>
+
+</body>
+
+</html>

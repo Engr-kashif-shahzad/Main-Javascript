@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+</head>
+
+<body>
+  
+
+
+
+  <img src="./logo.jpg" width="200px" height="200px" id="logo" onClick="ChangeIt()" style="cursor: pointer;">
+  <img src="./office.jpg" width="200px" height="200px" id="office" onclick="hideIt()" style="cursor: pointer;">
+
+
+
+  <script>
+
+    function ChangeIt() {
+      var img = document.getElementById("logo");
+      img.src = "./sea.jpg";
+    }
+
+    function hideIt() {
+      let hideimgg = document.getElementById("office").style="border:dotted,red";
+      
+    }
+
+  </script>
+
+
+</body>
+
+</html>
