@@ -1,3 +1,4 @@
-function makeInvisible() {
-    document.getElementById("logo").style.visibility = "hidden";
-}
+// function makeInvisible() {
+//     document.getElementById("logo").style.visibility = "hidden";
+// }
+

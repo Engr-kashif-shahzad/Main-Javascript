@@ -11,11 +11,12 @@
 //var defaultAnswer='human';
 //var spec=prompt(question,defaultAnswer);// given value show
  
-// var NumOfCats=prompt("how many cats?");
-// var tooManyCats= NumOfCats + '1';
+var NumOfCats=prompt("how many cats?");
+var tooManyCats= NumOfCats + '1';
 
-// alert(tooManyCats);
-// document.write(tooManyCats);
+alert(tooManyCats);
+document.write(tooManyCats);
+
 
 var a=prompt('Enter a Number Of Month');
 
