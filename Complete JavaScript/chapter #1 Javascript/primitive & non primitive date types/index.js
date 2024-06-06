@@ -22,4 +22,4 @@ let g=undefined
 //     mohsin:undefined,
 // }
 // console.log(item);
-// console.log(item['ahmad']); 
+// console.log(item['ahmad']);  // action perform like dictionary 
