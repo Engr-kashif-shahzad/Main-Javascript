@@ -11,14 +11,14 @@
 
 
 let name ='Yahoo Baba';
-let gender='male';
+let gender='female';
 
 if(gender=='male'){
 
     console.log('hello mr.'+name)
     document.write('hello mr.'+name)
 }else{
-    console.log('hello mr.'+name)
-    document.write('hello mr.'+name)
+    console.log('hello mrs.'+name)
+    document.write('hello mrs.'+name)
   
 }
