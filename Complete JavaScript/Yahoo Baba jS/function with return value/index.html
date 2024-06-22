@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> function with return value</title>
+</head>
+<body>
+    <script>
+       function fullname(fname="call", lname="center"){
+        var a = fname + " " + lname
+        return a
+       }
+
+       var fn = fullname("mustafai" , "caller" + " ");
+       document.write(fn);
+
+       var fn = fullname("m ","Ahmad" + " _ ");
+       document.write(fn)
+       var fn = fullname("kashif", "shahzad" + "<br>");
+         document.write(fn)
+
+         function sum(math,eng, sc){
+            var s= math+ eng + sc
+            return s;
+         }
+
+         var grand= sum(10,20,30 + " <br>")
+         document.write(grand)
+         
+         function percentage(tt){
+           var per= tt/300 * 100
+           return per;
+         }
+         var total= sum(80,80,80 )
+         document.write(total + "<br>");
+
+         // 2nd methode for percentage
+         function percentage(tt){
+           var per= tt/300 * 100
+           document.write(per);
+         }
+         var total= sum(65,75,85 )
+         percentage(total);
+
+
+
+    </script>
+</body>
+</html>
