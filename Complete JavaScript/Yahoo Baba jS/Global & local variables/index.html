@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <script>
+        
+       // var a="yahoo baba"; // global variable its works inner & outer place
+        function hello(){
+            var a="yahoo baba";
+            var b=20; // local variable
+              document.write(a + "<br>")
+              
+        }
+        hello();
+        document.write(a) // error here a isn't defined.
+         
+    </script>
+    
+</body>
+</html>
