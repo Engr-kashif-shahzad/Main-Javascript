@@ -4,23 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
 </head>
 <body>
     <script>
-        var ary= new array();
+        var ary=[
+            ["herry", 18, "female" , "English "],
+            ["sunny", 19,"male" , "Math "],
+            ["Sarah", 20,"female" , "Urdu "],
+            ["ahmad", 21,"male " , "Islamiyat "],
+            ["mohsin", 21,"male " , "Islamiyat "],
+            ["Musadiq", 21,"male " , "Islamiyat "]
+        ];
+        // document.write(ary[0][3]) // show the value by targetting index
+        //
+        document.write(ary.length) // find ary length methode
+        document.write("<table border='1px' cellspacing='0' >")
 
-        
-          
-            for(var g=0;g<a;g++){
-                var array=prompt("Enter the value");
-            }
-            for(var a=0;a<3;a++){
+        for(var a=0;a<ary.length;a++){
 
-         
-            document.write( ary[a] )
-        }
-        document.write(ary[a])
+            document.write("<tr>");
+
+            for(var b=0;b<ary[a].length;b++){
+                document.write("<td>"+ ary[a][b] + "</td>" );
+             }
+            document.write("</tr>"
+
+             );
+          }
+        document.write("</table")
+     
+       
+      
+   
     </script>
 </body>
 </html>
