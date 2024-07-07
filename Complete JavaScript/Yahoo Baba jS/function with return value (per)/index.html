@@ -12,36 +12,39 @@
         return a
        }
 
-       var fn = fullname("mustafai" , "caller" + " ");
-       document.write(fn);
+       var fn = fullname("" , " caller");
+       document.write(fn + "<br>");
 
-       var fn = fullname("m ","Ahmad" + " _ ");
-       document.write(fn)
-       var fn = fullname("kashif", "shahzad" + "<br>");
-         document.write(fn)
+       var fn = fullname("[M] - ","[Ahmad]" );
+       document.write(fn + "<br>")
+       var fn = fullname("kashif", "shahzad" );
+         document.write(fn + "<br>")
 
          function sum(math,eng, sc){
-            var s= math+ eng + sc
+            var s= math, eng , sc
             return s;
          }
 
-         var grand= sum(10,20,30 + " <br>")
-         document.write(grand)
+         var grand= sum(10+20+30 + "<br>")
+         document.write(grand + "<br>")
+
+         
          
          function percentage(tt){
            var per= tt/300 * 100
            return per;
          }
-         var total= sum(80,80,80 )
-         document.write(total + "<br>");
+         var total= sum(80+80+80 )
+         document.write(total + "<br>" + "<br>");
 
          // 2nd methode for percentage
+
          function percentage(tt){
            var per= tt/300 * 100
-           document.write(per);
+           document.write(per + "<br>");
          }
          var total= sum(65,75,85 )
-         percentage(total);
+         percentage(total );
 
 
 
